@@ -1,15 +1,15 @@
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import home from './containers/Home'
+import login from './containers/Login'
+import signup from './containers/Signup'
+import scoring from './containers/Scoring'
+import stats from './containers/Stats'
 
 
 function App() {
   return (
     <Router>
-      <div className="App">
-        <header className="App-header">
-          <h1><i>Taylor Swift Rankings</i></h1>
-        </header>
-      </div>
       <Switch>
         <Route exact path='/' component={home}/>
         <Route exact path='/login' component={login}/>
