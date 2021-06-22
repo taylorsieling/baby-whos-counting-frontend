@@ -11,7 +11,7 @@ const navbar = {
 
 const Navigation = () => {
     return (
-        <div className="App-Nav">
+        <div className="App-nav">
             <NavLink
                 to="/login"
                 exact
@@ -37,7 +37,7 @@ const Navigation = () => {
             </NavLink>
 
             <NavLink
-                to="/signup"
+                to="/about"
                 exact
                 style={navbar}
                 activeStyle={{
@@ -45,7 +45,7 @@ const Navigation = () => {
                     fontWeight: 'bold',
                     color: '#bdd1c5'
                 }}
-            > faq
+            > about
             </NavLink>
             
         </div>

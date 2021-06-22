@@ -7,7 +7,8 @@ export default class Home extends Component {
             <div className="App">
                 <Navigation/>
                 <header className="App-header">
-                <h1><i>Taylor Swift Rankings</i></h1>
+                    <h3><i>welcome to</i></h3>
+                    <h1><i>Taylor Swift Rankings</i></h1>
                 </header>
             </div>
         )

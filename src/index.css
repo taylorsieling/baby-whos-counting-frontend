@@ -2,11 +2,13 @@
 
 body {
   margin: 0;
+  background-color: #444;
   font-family: 'IM Fell DW Pica', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 code {
@@ -14,10 +16,7 @@ code {
     monospace;
 }
 
-h1 {
-  font-weight: 400;
-}
-
-.album-div {
-  text-align: center;
+#root {
+  margin: 0;
+  padding: 0;
 }

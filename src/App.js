@@ -5,6 +5,7 @@ import login from './containers/Login'
 import signup from './containers/Signup'
 import scoring from './containers/Scoring'
 import dashboard from './containers/Dashboard'
+import about from './components/About'
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route exact path='/signup' component={signup}/>
         <Route exact path='/scoring' component={scoring}/>
         <Route exact path='/dashboard' component={dashboard}/>
+        <Route exact path='/about' component={about}/>
       </Switch>
     </Router>
   );
