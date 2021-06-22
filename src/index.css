@@ -14,11 +14,10 @@ code {
     monospace;
 }
 
-div {
-  margin: 10px;
-  padding: 20px;
-}
-
 h1 {
   font-weight: 400;
+}
+
+.album-div {
+  text-align: center;
 }
