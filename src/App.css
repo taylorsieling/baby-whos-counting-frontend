@@ -45,6 +45,8 @@ h1, h2, h3, h4, h5, h6 {
 .form-parent {
   max-width: 500px;
   margin: auto;
+  text-align: center;
+  color: white;
 }
 
 .login-form {
