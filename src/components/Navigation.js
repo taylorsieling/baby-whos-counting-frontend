@@ -17,9 +17,8 @@ const Navigation = () => {
                 exact
                 style={navbar}
                 activeStyle={{
-                    textdecoration: 'underline',
+                    textDecoration: 'underline',
                     fontWeight: 'bold',
-                    color: '#bdd1c5'
                 }}
             > login
             </NavLink>
@@ -29,9 +28,8 @@ const Navigation = () => {
                 exact
                 style={navbar}
                 activeStyle={{
-                    textdecoration: 'underline',
+                    textDecoration: 'underline',
                     fontWeight: 'bold',
-                    color: '#bdd1c5'
                 }}
             > signup
             </NavLink>
@@ -41,9 +39,8 @@ const Navigation = () => {
                 exact
                 style={navbar}
                 activeStyle={{
-                    textdecoration: 'underline',
+                    textDecoration: 'underline',
                     fontWeight: 'bold',
-                    color: '#bdd1c5'
                 }}
             > about
             </NavLink>
