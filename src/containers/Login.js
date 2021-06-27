@@ -1,11 +1,11 @@
 import React from 'react'
 import { LoginForm } from '../components/LoginForm'
-import Navigation from '../components/Navigation'
+import Navigation from '../components/NavPublic'
 
 function Login() {
     return (
         <div>
-            <Navigation/>
+            <NavPublic/>
             <LoginForm/>
             <div className="form-parent">
                 <h2>

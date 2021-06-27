@@ -9,7 +9,7 @@ const navbar = {
     color: 'white',
 }
 
-const Navigation = () => {
+const NavPublic = () => {
     return (
         <div className="App-nav">
             <NavLink
@@ -50,4 +50,4 @@ const Navigation = () => {
     )
 }
 
-export default Navigation;
+export default NavPublic;

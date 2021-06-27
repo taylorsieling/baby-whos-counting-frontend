@@ -2,7 +2,6 @@ import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import home from './containers/Home'
 import login from './containers/Login'
-import signup from './containers/Signup'
 import scoring from './containers/Scoring'
 import dashboard from './containers/Dashboard'
 import about from './components/About'
