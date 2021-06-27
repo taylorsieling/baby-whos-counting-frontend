@@ -5,6 +5,7 @@ const Album = () => {
         <div>
             <h2>Folklore</h2>
             <div className="album-div">
+                
             </div>
         </div>
     )

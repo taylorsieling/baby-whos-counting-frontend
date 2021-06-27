@@ -5,11 +5,11 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { MyProvider } from './MyContext'
 
-
 ReactDOM.render(
   <MyProvider>
-    <App />
+      <App />
   </MyProvider>,
+
   document.getElementById('root')
 );
 

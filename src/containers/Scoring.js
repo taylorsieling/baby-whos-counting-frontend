@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Album from '../components/Album'
+import Album from '../containers/Album'
 
 export default class Scoring extends Component {
     render() {

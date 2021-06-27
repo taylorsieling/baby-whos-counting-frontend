@@ -11,9 +11,6 @@ export const LoginForm = () => {
                 </form>
             </div>
             <hr/>
-            <div className="form-parent">
-                <h2><i>login with google | login with spotify</i></h2>
-            </div>
         </div>
     )
 }
