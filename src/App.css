@@ -8,22 +8,21 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 
+h1 {
+  font-size: 84px;
+  font-style: italic;
+}
+
+.subtitle {
+  font-size: 32px;
+  font-style: italic;
+}
+
 .App {
   margin: 0;
   padding: 0;
   background-color: #444;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-nav {
-  margin: 0;
-  background-color: #444;
-  color: white;
 }
 
 .App-header {
@@ -88,23 +87,20 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   /** Buttons **/
-.btn {
+.btn-login {
   background-color: transparent;
   border-radius: 2em;
-  border: 0.2em solid #d0c8b6;
-  color: #d0c8b6;
-  cursor: pointer;
+  border: 0.2em solid white;
+  color: white;
+  cursor: default ;
   font-size: 3vmin;
   padding: 0.5em 1em;
+  margin: 0 auto;
   text-decoration: none;
   transition: all 0.25s ease;
 }
 
-.btn:hover {
-  background: #d0c8b6;
+.btn-login:hover {
+  background: white;
   color: #333;
-}
-
-.btn--login {
-  margin: 0 auto;
 }
