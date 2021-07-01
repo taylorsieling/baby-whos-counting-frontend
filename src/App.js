@@ -6,8 +6,10 @@ import scoring from './containers/Scoring'
 import dashContainer from './containers/DashContainer'
 import about from './components/About'
 
-
 function App() {
+
+  
+
   return (
     <Router>
       <Switch>

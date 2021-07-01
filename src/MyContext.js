@@ -4,9 +4,9 @@ const MyContext = React.createContext();
 export default MyContext;
 
 function MyProvider(props) {
-    const [albums, setAlbums] = useState([])
+    const [token, setToken] = useState([])
 
-    return <MyContext.Provider value={{ albums: albums}}>
+    return <MyContext.Provider value={{ token: token}}>
         {props.children}
     </MyContext.Provider>
 }
