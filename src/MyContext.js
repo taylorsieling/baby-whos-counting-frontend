@@ -6,7 +6,7 @@ export default MyContext;
 function MyProvider(props) {
     const [token, setToken] = useState([])
 
-    return <MyContext.Provider value={{ token: token}}>
+    return <MyContext.Provider value={{ token: token }}>
         {props.children}
     </MyContext.Provider>
 }
